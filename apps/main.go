@@ -8,4 +8,6 @@ import (
 func main() {
 	x := pkg.NewSampleStruct("internal", "external")
 	fmt.Println(x.ExportData)
+	fmt.Println(x.GetInternal())
+	fmt.Println(x.Version)
 }
