@@ -6,6 +6,14 @@ import (
 )
 
 func main() {
+	pointerPlay()
+}
+
+func ShapePlay() {
+
+}
+
+func pointerPlay() {
 	x := pkg.NewSampleStruct("internal", "external")
 	fmt.Println(x.ExportData)
 	fmt.Println(x.GetInternal())
